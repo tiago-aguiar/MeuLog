@@ -1,0 +1,11 @@
+framework module MeuLog {
+  umbrella header "MeuLog.h"
+
+  export *
+  module * { export * }
+}
+
+module MeuLog.Swift {
+  header "MeuLog-Swift.h"
+  requires objc
+}
